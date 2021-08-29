@@ -1,0 +1,54 @@
+
+#pan, #pan02{
+    font-size:20px;
+    cursor: pointer;
+}
+div#acont {
+    background-color: gainsboro;
+    display: none;
+}
+.animation-text{
+    margin-top: 20px;
+    min-height:300px;
+    background-color: chartreuse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.animation-text h1{
+    font-size: 60px;
+    text-transform: uppercase;
+    width: 0ch;
+   
+    white-space: nowrap;
+    border-right: 2px solid black;
+    animation: text 3s infinite;
+    overflow: hidden;
+    text-align: center;
+}
+
+@keyframes text{
+    0%{
+        width:ch;
+    }
+    50%{
+        width:15ch;
+    }
+    
+}
+
+/* ui according */
+/* ui menu */
+.ui-menu {
+     width: 150px; 
+    }
+
+/* progressbar */
+.ui-widget-header{
+    background: red;
+}
+
+/* tooltip */
+.tbtn{
+    margin-right: 100px;
+}

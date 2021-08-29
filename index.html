@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!--meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+   <!-- jQuery ui css -->
+   <link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+    <!--main style-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--media css-->
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+
+    <title>js and jq class03</title>
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="animation-text">
+              <h1>hello world...</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1 class="text-center"> hide show toggle</h1>
+            <h2>hide the text</h2>
+            <button class="btn btn-info hide">hide</button>
+            <button class="btn btn-info show">show</button>
+            <div class="hide-content border m-3 p-3" id="hidec">
+              <h3>hide the title</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio est explicabo eum nam beatae, neque modi, aperiam, id voluptatum optio libero commodi eius! Tempore rem dolore accusantium unde non porro!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1 class="mb-5 text-center"> fadein fadeout fade toggle</h1>
+            <button class="btn btn-success" id="f01">fade out</button>
+            <button class="btn btn-warning" id="f02">fade in</button>
+            <button class="btn btn-dark" id="f03">fade toggle</button>
+            <div class="fade-content border p-5 mt-2" id="fcontent">
+              <h1>fade content title</h1>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt quaerat reiciendis blanditiis eveniet voluptatem architecto nesciunt enim dolorem maiores tempora ipsum perspiciatis veritatis exercitationem cupiditate vitae at voluptas, aliquid consectetur sint? Quisquam id mollitia, tempore cupiditate quibusdam doloremque quidem perspiciatis vel deleniti, ad ipsa ducimus, quasi quae consequatur assumenda dolorem.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1 class="text-center">according</h1>
+            <div class="accordation">
+            <div class="according-title">
+              <p class="bg-dark text-white p-2" id="pan">what,s your course?</p>
+            
+            </div>
+            <div class="accordaing-content border p-2" id="acont">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis, veniam esse est dolores quasi earum reprehenderit eius cupiditate similique eveniet, minima tempora accusamus ipsa fugiat corporis, dolor alias tenetur vitae aliquam omnis iure nulla vero molestias. Assumenda vitae quis, laboriosam quod modi nostrum harum ipsa odit quaerat consequatur sit tempora voluptates molestias veniam at vero nesciunt neque non! Labore praesentium voluptas voluptatem? Suscipit, nobis! Architecto nobis quaerat nisi? Voluptatibus dolores quia mollitia perferendis vel? Assumenda aliquid illo odit perspiciatis. Consectetur fugit molestiae porro harum dolore, corrupti assumenda. Fuga dolore delectus ut consequatur cum officia nulla, inventore ex ullam porro tempora.</p>
+            </div>
+            <p class="bg-dark text-white p-2" id="pan02">what,s your batch?</p>
+            <div class="accordaing-content border p-2" id="acont02">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis, veniam esse est dolores quasi earum reprehenderit eius cupiditate similique eveniet, minima tempora accusamus ipsa fugiat corporis, dolor alias tenetur vitae aliquam omnis iure nulla vero molestias. Assumenda vitae quis, laboriosam quod modi nostrum harum ipsa odit quaerat consequatur sit tempora voluptates molestias veniam at vero nesciunt neque non! Labore praesentium voluptas voluptatem? Suscipit, nobis! Architecto nobis quaerat nisi? Voluptatibus dolores quia mollitia perferendis vel? Assumenda aliquid illo odit perspiciatis. Consectetur fugit molestiae porro harum dolore, corrupti assumenda. Fuga dolore delectus ut consequatur cum officia nulla, inventore ex ullam porro tempora.</p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1 class="text-center"> jQuery UI Elements</h1>
+            <h2>1. Accordion</h2>
+            <!-- according start -->
+            <div id="accordion">
+              <h3>Section 1</h3>
+              <div>
+                <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
+              </div>
+              <h3>Section 2</h3>
+              <div>
+                <p>Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In suscipit faucibus urna. </p>
+              </div>
+              <h3>Section 3</h3>
+              <div>
+                <p>Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis. Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui. </p>
+                <ul>
+                  <li>List item one</li>
+                  <li>List item two</li>
+                  <li>List item three</li>
+                </ul>
+              </div>
+              <h3>Section 4</h3>
+              <div>
+                <p>Cras dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia mauris vel est. </p><p>Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+              </div>
+            </div>
+            <!-- according end -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1 class="text-center">Autocomplete</h1>
+            <div class="ui-widget">
+              <label for="tags">Tags:</label>
+              <input id="tags" type="text">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1 class="text-center">Date Picker</h1>
+            <div class="date-picker">
+              <label for="date">Date:</label>
+              <input id="date" type="text">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1 class="text-center">Dialoge</h1>
+             
+            <div id="dialog" title="Basic dialog">
+              <p>This is an animated dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the &apos;x&apos; icon.</p>
+            </div>             
+            <button class="btn  btn-warning" id="opener">Open Dialog</button>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1 class="text-center">Menu</h1>
+            <ul id="menu">
+              <li class="ui-state-disabled"><div>Toys (n/a)</div></li>
+              <li><div>Books</div></li>
+              <li><div>Clothing</div></li>
+              <li><div><span ></span> Electronics</div>
+                <ul>
+                  <li class="ui-state-disabled"><div>Home Entertainment</div></li>
+                  <li><div>Car Hifi</div></li>
+                  <li><div>Utilities</div></li>
+                </ul>
+              </li>
+              <li><div>Movies</div></li>
+              <li><div>Music</div>
+                <ul>
+                  <li><div>Rock</div>
+                    <ul>
+                      <li><div>Alternative</div></li>
+                      <li><div>Classic</div></li>
+                    </ul>
+                  </li>
+                  <li><div>Jazz</div>
+                    <ul>
+                      <li><div>Freejazz</div></li>
+                      <li><div>Big Band</div></li>
+                      <li><div>Modern</div></li>
+                    </ul>
+                  </li>
+                  <li><div>Pop</div></li>
+                </ul>
+              </li>
+              <li class="ui-state-disabled"><div>Specials (n/a)</div></li>
+            </ul>
+             
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Progressbar -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1 class="text-center">Progressbar </h1>
+            <div id="progressbar"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="m-5 amrtooltip">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1 class="text-center">Toolprip</h1>
+
+            <button type="button" class="btn btn-primary tbtn" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top">
+              Tooltip on top
+            </button>
+            <button type="button" class="btn btn-secondary tbtn" data-bs-toggle="tooltip" data-bs-placement="right" title="Tooltip on to see right">
+              Tooltip on right
+            </button>
+            <button type="button" class="btn btn-warning tbtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Tooltip on bottom">
+              Tooltip on bottom
+            </button>
+            <button type="button" class="btn btn-info tbtn" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+              Tooltip on left
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--js links-->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!-- jQuery ui js -->
+    <script src="js/jquery-ui.min.js"></script>     
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>    
+    <!--main js-->
+    <script src="js/main.js"></script>
+  </body>
+</html>
